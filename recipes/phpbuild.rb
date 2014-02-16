@@ -31,8 +31,6 @@ include_recipe "build-essential"
   # rsync
 
 include_recipe "mysql::client"
-include_recipe "postgresql::client"
-
 include_recipe "xml"
 
 case node["platform_family"]
