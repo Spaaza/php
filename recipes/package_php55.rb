@@ -52,7 +52,7 @@ end
 
 pkgs = value_for_platform(
   [ "debian", "ubuntu" ] => {
-    "default" => %w{ php5-cgi php5 php5-dev php5-cli php-pear }
+    "default" => %w{ php5-fpm php5-mcrypt php5-sqlite sqlite php5-cli php5-xcache php5-curl php5-json php-pear php5-mysql php5-mysqlnd php5-gd }
   }
 )
 
